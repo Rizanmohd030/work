@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.table-box {
+  margin: 50px auto;
+}
+
+.table-row {
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: 'Smooch Sans', sans-serif; /* Update to use the imported font */
+  background: transparent;
+  padding: 12px 0;
+  color: #555;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3); /* Adjust box-shadow color */
+}
+
+.table-cell {
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+}
+
+.table-head {
+  background: #8665f7;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table-head .table-cell {
+  border-right: none;
+}
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #007bff;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #343a40;
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  /* Carousel styles */
+  .carousel-inner img {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  /* Adjust the carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #ffffff;
+  }
+  
+  /* Adjust the carousel indicators */
+  .carousel-indicators li {
+    background-color: #ffffff;
+    border: 1px solid #343a40;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+  }
+  
+  /* Container styles */
+  .container-fluid {
+    padding: 0 15px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-bottom: 10px;
+    }
+  }
+  

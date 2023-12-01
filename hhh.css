@@ -1,0 +1,78 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #007bff;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  /* Carousel styles */
+  .carousel-inner img {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  /* Adjust the carousel controls */
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #ffffff;
+  }
+  
+  /* Adjust the carousel indicators */
+  .carousel-indicators li {
+    background-color: #ffffff;
+    border: 1px solid #343a40;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+  }
+  
+  /* Container styles */
+  .container-fluid {
+    padding: 0 15px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-bottom: 10px;
+    }
+  }
+  
